@@ -1,0 +1,20 @@
+* {color: white;}
+
+header {
+
+.logo {
+  width: 50px;
+  float: left;
+  margin: 10px;
+}
+
+.drop_down_menu {
+  background-color: transparent;
+}
+
+.start_button {
+  background-color: transparent;
+}
+
+body {
+  background-color: black; }
