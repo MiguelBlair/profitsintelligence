@@ -1,20 +1,37 @@
 * {color: white;}
 
-header {
+header {background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+border-radius: 10px;}
 
-.logo {
-  width: 50px;
-  float: left;
-  margin: 10px;
+.logo {width: 60px;
+margin-left: 2%;
+border-radius: 30%;}
+
+.start_button{background-color: transparent;
+display: flex;
+margin: auto;
+border-radius: 5px;
 }
 
-.drop_down_menu {
-  background-color: transparent;
-}
+.start_button:hover {
+transform: scale(1.2);
+transition: transform 0.3s ease;
+transition: background-color 0.3s ease-in-out;
+background-color: rgba(255, 0, 0, 0.5);}
 
-.start_button {
-  background-color: transparent;
-}
+.drop_down_menu {background-color: transparent;
+  float: right;
+margin-right: 2%;
+border-radius: 5px;}
 
-body {
-  background-color: black; }
+body{margin-top: 80px;
+background-color: black;}
+
+footer a {text-decoration: none;}
